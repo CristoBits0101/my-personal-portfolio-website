@@ -1,20 +1,21 @@
 // Dependencies.
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
 // Pages.
-import Home from './pages/home/Home.jsx'
-import AboutMe from './pages/home/AboutMe.jsx'
-import CurriculumVitae from './pages/home/CurriculumVitae'
-import Projects from './pages/home/Projects'
-import Skills from './pages/home/Skills'
-import Contact from './pages/home/Contact'
-import Error404 from './pages/404/Error404'
+import Home from './pages/Home.jsx'
+import AboutMe from './pages/AboutMe.jsx'
+import CurriculumVitae from './pages/CurriculumVitae'
+import Projects from './pages/Projects'
+import Skills from './pages/Skills'
+import Contact from './pages/Contact'
+import Error404 from './pages/Error404.jsx'
 
 // Components.
-import Nav from './components/pure/Nav'
+import Header from './components/Header.jsx'
 
 // Styles
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Nav />
+      <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
