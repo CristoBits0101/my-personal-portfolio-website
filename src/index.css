@@ -1,9 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Dosis:wght@600&family=Josefin+Sans&family=Quicksand&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;1,300&family=Dancing+Script:wght@600&family=Dosis:wght@600&family=Handlee&family=Istok+Web&family=Josefin+Sans&family=Kaushan+Script&family=Marcellus&family=Quicksand&family=Roboto+Mono&family=Ysabeau:ital,wght@0,300;1,300&display=swap');
+
 body {
     margin: 0%;
     padding: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
 }
 
 nav {
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.1rem;
+}
+
+.color-gradient {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+.text-style-one {
+    text-indent: 2rem;
+    text-align: justify;
+    margin-top: 2rem;
 }
